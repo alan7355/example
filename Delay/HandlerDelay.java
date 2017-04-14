@@ -2,9 +2,7 @@ Handler handler = new Handler();
 handler.postDelayed(new Runnable() {
     @Override
     public void run() {
-
-        //¹L¨â¬í«á­n°µªº¨Æ±¡
-        Log.d("tag", "§Ú­n¥´±½¤F");
-
+        //éå…©ç§’å¾Œè¦åšçš„äº‹æƒ…
+        Log.d("tag", "æˆ‘è¦æ‰“æƒäº†");
     }
 }, 2000);
